@@ -1,0 +1,144 @@
+body {
+    background-color: lightblue;
+    
+
+}
+
+@media only screen and (max-device-width: 1080px) {
+    .principal {
+        background-color: white;
+        margin: 0 300px 0 300px;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 0.5fr 45%;
+        box-shadow: 16px 70px 20px 15px rgb(0 0 0 / 64%);
+    }
+
+    .lado_direito {
+        background-color: white;
+        display: flex;
+       /* justify-content: center;*/
+        padding-top: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+h3{
+    font-family: Andale Mono, monospace;
+    color: #355586;
+}
+
+.principal {
+    background-color: white;
+    margin: 0 300px 0 300px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 70%;
+    box-shadow: 16px 70px 20px 15px rgb(0 0 0 / 64%);
+    
+    
+}
+
+.lado_esquerdo {
+    background-color: #355586;
+    /*padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;*/
+}
+
+.lado_direito {
+    background-color: white;
+    display: flex;
+   /* justify-content: center;*/
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.foto_perfil {
+    margin: 50px 25% 50px 25%;
+    border-radius: 50%;
+}
+
+.titulo_contato{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bloco_informacao{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-bottom: 16px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+  a:hover {color: red;}
+    a { color: white; text-decoration: none;}
+
+.descricao{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    font-family: monospace;
+    margin-left: 16px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.skills_summary{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10%;
+}
+
+.nome{
+    font-family: Andale Mono, monospace;
+    color: #355586;
+    text-align: left;
+    text-transform: uppercase;
+    font-size:60px;
+    padding-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    
+}
+ 
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.cargo{
+    font-family: Andale Mono, monospace;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 6%;
+    margin-bottom: 8%;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 50;
+    line-height: 150%;
+    padding-left: 2%;
+}
+
+hr {
+    width: 15%;
+    position: relative;
+    margin-left: 6%;
+    color: black;
+}
